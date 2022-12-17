@@ -1,1 +1,5 @@
+= go-feiertag
 
+A go library to calculate german holidays.
+
+(C) Jens Schumacher, 2022
