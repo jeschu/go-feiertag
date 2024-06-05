@@ -6,34 +6,74 @@ import (
 	"time"
 )
 
-func NeujahrIn(year int) time.Time                  { return Neujahr.InYear(year) }
-func HeiligeDreiKoenigeIn(year int) time.Time       { return HeiligeDreiKoenige.InYear(year) }
+//goland:noinspection GoUnusedExportedFunction
+func NeujahrIn(year int) time.Time { return Neujahr.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func HeiligeDreiKoenigeIn(year int) time.Time { return HeiligeDreiKoenige.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
 func InternationalerFrauenTagIn(year int) time.Time { return InternationalerFrauenTag.InYear(year) }
 func WeiberfastnachtIn(year int) time.Time          { return Weiberfastnacht.InYear(year) }
 func RosenmontagIn(year int) time.Time              { return Rosenmontag.InYear(year) }
-func GruendonnerstagIn(year int) time.Time          { return Gruendonnerstag.InYear(year) }
-func KarfreitagIn(year int) time.Time               { return Karfreitag.InYear(year) }
-func OstersonntagIn(year int) time.Time             { return Ostersonntag.InYear(year) }
-func OstermontagIn(year int) time.Time              { return Ostermontag.InYear(year) }
-func TagDerArbeitIn(year int) time.Time             { return TagDerArbeit.InYear(year) }
-func ChristiHimmelfahrtIn(year int) time.Time       { return ChristiHimmelfahrt.InYear(year) }
-func PfingstsonntagIn(year int) time.Time           { return Pfingstsonntag.InYear(year) }
-func PfingstmontagIn(year int) time.Time            { return Pfingsmontag.InYear(year) }
-func FronleichnamIn(year int) time.Time             { return Fronleichnam.InYear(year) }
-func AugsburgerFriedensfestIn(year int) time.Time   { return AugsburgerFriedensfest.InYear(year) }
-func MariaeHimmelfahrtIn(year int) time.Time        { return MariaeHimmelfahrt.InYear(year) }
-func WeltkindertagIn(year int) time.Time            { return Weltkindertag.InYear(year) }
-func TagDerDeutschenEinheitIn(year int) time.Time   { return TagDerDeutschenEinheit.InYear(year) }
-func ReformationstagIn(year int) time.Time          { return Reformationstag.InYear(year) }
-func AllerheiligenIn(year int) time.Time            { return Allerheiligen.InYear(year) }
-func BussUndBettagIn(year int) time.Time            { return BussUndBettag.InYear(year) }
-func Advent_1In(year int) time.Time                 { return Advent_1.InYear(year) }
-func Advent_2In(year int) time.Time                 { return Advent_2.InYear(year) }
-func Advent_3In(year int) time.Time                 { return Advent_3.InYear(year) }
-func Advent_4In(year int) time.Time                 { return Advent_4.InYear(year) }
-func HeiligAbendIn(year int) time.Time              { return HeiligAbend.InYear(year) }
-func Weihnachtsfeiertag_1In(year int) time.Time     { return Weihnachtsfeiertag_1.InYear(year) }
-func Weihnachtsfeiertag_2In(year int) time.Time     { return Weihnachtsfeiertag_2.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func GruendonnerstagIn(year int) time.Time { return Gruendonnerstag.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func KarfreitagIn(year int) time.Time   { return Karfreitag.InYear(year) }
+func OstersonntagIn(year int) time.Time { return Ostersonntag.InYear(year) }
+func OstermontagIn(year int) time.Time  { return Ostermontag.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func TagDerArbeitIn(year int) time.Time       { return TagDerArbeit.InYear(year) }
+func ChristiHimmelfahrtIn(year int) time.Time { return ChristiHimmelfahrt.InYear(year) }
+func PfingstsonntagIn(year int) time.Time     { return Pfingstsonntag.InYear(year) }
+func PfingstmontagIn(year int) time.Time      { return Pfingsmontag.InYear(year) }
+func FronleichnamIn(year int) time.Time       { return Fronleichnam.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func AugsburgerFriedensfestIn(year int) time.Time { return AugsburgerFriedensfest.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func MariaeHimmelfahrtIn(year int) time.Time { return MariaeHimmelfahrt.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func WeltkindertagIn(year int) time.Time { return Weltkindertag.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func TagDerDeutschenEinheitIn(year int) time.Time { return TagDerDeutschenEinheit.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func ReformationstagIn(year int) time.Time { return Reformationstag.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func AllerheiligenIn(year int) time.Time { return Allerheiligen.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func BussUndBettagIn(year int) time.Time { return BussUndBettag.InYear(year) }
+func Advent_1In(year int) time.Time      { return Advent_1.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func Advent_2In(year int) time.Time { return Advent_2.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func Advent_3In(year int) time.Time { return Advent_3.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func Advent_4In(year int) time.Time { return Advent_4.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func HeiligAbendIn(year int) time.Time { return HeiligAbend.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func Weihnachtsfeiertag_1In(year int) time.Time { return Weihnachtsfeiertag_1.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func Weihnachtsfeiertag_2In(year int) time.Time { return Weihnachtsfeiertag_2.InYear(year) }
+
+//goland:noinspection GoUnusedExportedFunction
+func SilvesterIn(year int) time.Time { return Silvester.InYear(year) }
 
 var easterCache = make(map[int]time.Time)
 
@@ -106,26 +146,26 @@ const (
 	HeiligAbend
 	Weihnachtsfeiertag_1
 	Weihnachtsfeiertag_2
-	Sylvester
+	Silvester
 )
 
 var fbw = map[Bundesland][]Feiertag{
-	BB: []Feiertag{Neujahr, Karfreitag, Ostersonntag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingstsonntag, Pfingsmontag, TagDerDeutschenEinheit, Reformationstag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
-	BE: []Feiertag{Neujahr, InternationalerFrauenTag, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, TagDerDeutschenEinheit, Reformationstag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
-	BW: []Feiertag{Neujahr, HeiligeDreiKoenige, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, Fronleichnam, TagDerDeutschenEinheit, Allerheiligen, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
-	BY: []Feiertag{Neujahr, HeiligeDreiKoenige, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, Fronleichnam, TagDerDeutschenEinheit, Allerheiligen, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
-	HB: []Feiertag{Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, TagDerDeutschenEinheit, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
-	HE: []Feiertag{Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, Fronleichnam, TagDerDeutschenEinheit, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
-	HH: []Feiertag{Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, TagDerDeutschenEinheit, Reformationstag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
-	MV: []Feiertag{Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, TagDerDeutschenEinheit, Reformationstag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
-	NI: []Feiertag{Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, TagDerDeutschenEinheit, Reformationstag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
-	NW: []Feiertag{Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, Fronleichnam, TagDerDeutschenEinheit, Allerheiligen, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
-	RP: []Feiertag{Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, Fronleichnam, TagDerDeutschenEinheit, Allerheiligen, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
-	SH: []Feiertag{Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, TagDerDeutschenEinheit, Reformationstag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
-	SL: []Feiertag{Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, Fronleichnam, MariaeHimmelfahrt, TagDerDeutschenEinheit, Allerheiligen, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
-	SN: []Feiertag{Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, TagDerDeutschenEinheit, Reformationstag, BussUndBettag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
-	ST: []Feiertag{Neujahr, HeiligeDreiKoenige, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, TagDerDeutschenEinheit, Reformationstag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
-	TH: []Feiertag{Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, Weltkindertag, TagDerDeutschenEinheit, Reformationstag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
+	BB: {Neujahr, Karfreitag, Ostersonntag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingstsonntag, Pfingsmontag, TagDerDeutschenEinheit, Reformationstag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
+	BE: {Neujahr, InternationalerFrauenTag, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, TagDerDeutschenEinheit, Reformationstag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
+	BW: {Neujahr, HeiligeDreiKoenige, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, Fronleichnam, TagDerDeutschenEinheit, Allerheiligen, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
+	BY: {Neujahr, HeiligeDreiKoenige, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, Fronleichnam, TagDerDeutschenEinheit, Allerheiligen, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
+	HB: {Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, TagDerDeutschenEinheit, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
+	HE: {Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, Fronleichnam, TagDerDeutschenEinheit, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
+	HH: {Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, TagDerDeutschenEinheit, Reformationstag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
+	MV: {Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, TagDerDeutschenEinheit, Reformationstag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
+	NI: {Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, TagDerDeutschenEinheit, Reformationstag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
+	NW: {Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, Fronleichnam, TagDerDeutschenEinheit, Allerheiligen, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
+	RP: {Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, Fronleichnam, TagDerDeutschenEinheit, Allerheiligen, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
+	SH: {Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, TagDerDeutschenEinheit, Reformationstag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
+	SL: {Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, Fronleichnam, MariaeHimmelfahrt, TagDerDeutschenEinheit, Allerheiligen, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
+	SN: {Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, TagDerDeutschenEinheit, Reformationstag, BussUndBettag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
+	ST: {Neujahr, HeiligeDreiKoenige, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, TagDerDeutschenEinheit, Reformationstag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
+	TH: {Neujahr, Karfreitag, Ostermontag, TagDerArbeit, ChristiHimmelfahrt, Pfingsmontag, Weltkindertag, TagDerDeutschenEinheit, Reformationstag, Weihnachtsfeiertag_1, Weihnachtsfeiertag_2},
 }
 
 func (feiertag Feiertag) feiertagIn(bundesland Bundesland) bool {
@@ -203,11 +243,99 @@ func (feiertag Feiertag) InYear(year int) time.Time {
 		return date(year, 12, 25)
 	case Weihnachtsfeiertag_2:
 		return date(year, 12, 26)
-	case Sylvester:
+	case Silvester:
 		return date(year, 12, 31)
 	default:
 		panic(fmt.Sprintf("unknown holiday (%v)", feiertag))
 	}
 }
 
+func (feiertag Feiertag) IsAt(date time.Time) bool {
+	fDate := feiertag.InYear(date.Year())
+	if fDate.Year() != date.Year() {
+		return false
+	}
+	if fDate.Month() != date.Month() {
+		return false
+	}
+	if fDate.Day() != date.Day() {
+		return false
+	}
+	return true
+}
+
 func (bundesland Bundesland) Feiertage() []Feiertag { return fbw[bundesland] }
+
+func (bundesland Bundesland) IsFeiertag(date time.Time) bool {
+	for _, ftag := range bundesland.Feiertage() {
+		fDate := ftag.InYear(date.Year())
+		if fDate.Year() == date.Year() && fDate.Month() == date.Month() && fDate.Day() == date.Day() {
+			return true
+		}
+	}
+	return false
+}
+
+func (feiertag Feiertag) String() string {
+	switch feiertag {
+	case Neujahr:
+		return "Neujahr"
+	case HeiligeDreiKoenige:
+		return "Heilige drei Könige"
+	case InternationalerFrauenTag:
+		return "Internationaler Frauentag"
+	case Weiberfastnacht:
+		return "Weiberfastnacht"
+	case Rosenmontag:
+		return "Rosenmontag"
+	case Gruendonnerstag:
+		return "Gründonnerstag"
+	case Karfreitag:
+		return "Karfreitag"
+	case Ostersonntag:
+		return "Ostersonntag"
+	case Ostermontag:
+		return "Ostermontag"
+	case TagDerArbeit:
+		return "Tag der Arbeit"
+	case ChristiHimmelfahrt:
+		return "Christi Himmelfahrt"
+	case Pfingstsonntag:
+		return "Pfingstsonntag"
+	case Pfingsmontag:
+		return "Pfingsmontag"
+	case Fronleichnam:
+		return "Fronleichnam"
+	case AugsburgerFriedensfest:
+		return "Augsburger Friedensfest"
+	case MariaeHimmelfahrt:
+		return "Mariae Himmelfahrt"
+	case Weltkindertag:
+		return "Weltkindertag"
+	case TagDerDeutschenEinheit:
+		return "Tag der Deutschen Einheit"
+	case Reformationstag:
+		return "Reformationstag"
+	case Allerheiligen:
+		return "Allerheiligen"
+	case BussUndBettag:
+		return "Buß- Und Bettag"
+	case Advent_1:
+		return "1. Advent"
+	case Advent_2:
+		return "2. Advent"
+	case Advent_3:
+		return "3. Advent"
+	case Advent_4:
+		return "4. Advent"
+	case HeiligAbend:
+		return "Heilig Abend"
+	case Weihnachtsfeiertag_1:
+		return "1. Weihnachtsfeiertag"
+	case Weihnachtsfeiertag_2:
+		return "2. Weihnachtsfeiertag"
+	case Silvester:
+		return "Silvester"
+	}
+	return "?"
+}
